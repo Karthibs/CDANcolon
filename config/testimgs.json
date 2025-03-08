@@ -38,7 +38,7 @@
     "dataset": {
       "name": ["data.dataset", "UnpairedDataset"],
       "args": {
-        "low_light_root": "/Users/sinaraoufi/Downloads/LOLdataset/test/low"
+        "low_light_root": "/content/colon/data/test/images"
       },
       "is_dataset_paired": "False"
     },
