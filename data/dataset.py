@@ -46,10 +46,13 @@ class UnpairedDataset(Dataset):
         ])
 
     def __getitem__(self, idx):
+        image_path = self.low_light_dataset[idx]
         low_light = Image.open(self.low_light_dataset[idx]).convert('RGB')
         low_light = self.low_light_transform(low_light)
 
-        return low_light
+        filename = os.path.basename(image_path)
+
+        return low_light, filename
 
     def __len__(self):
         return len(self.low_light_dataset)
