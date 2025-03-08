@@ -51,7 +51,7 @@
                 "UnpairedDataset"
             ],
             "args": {
-                "low_light_root": "/Users/sinaraoufi/Downloads/LOLdataset/test/low"
+                "low_light_root": "/content/colon/data/train/images"
             },
             "is_dataset_paired": "False"
         },
